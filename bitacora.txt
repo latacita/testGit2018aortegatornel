@@ -11,3 +11,9 @@
  02	notepad bitacora.txt + 
 	añadir mi nombre completo
  03	commit + push
+ 09	commit -m "Paso 09"
+ 10	checkout develop
+ 11	branch feature/Ticket221
+	checkout Ticket221
+ 15	commit -m "Paso 15"
+ 16	checkout Ticket221
