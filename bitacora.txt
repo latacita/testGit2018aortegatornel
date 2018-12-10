@@ -7,7 +7,37 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
  01	clone + URL del repositorio
-	de gitHub
  02	notepad bitacora.txt + 
 	añadir mi nombre completo
  03	commit + push
+ 05	commit -m "Paso 05"
+ 06	branch develop
+ 07	branch feature/Ticket220
+ 09	commit -m "Paso 09"
+ 10	checkout develop
+ 11	branch feature/Ticket221
+	checkout Ticket221
+ 15	commit -m "Paso 15"
+ 16	checkout Ticket221
+ 13	stash de Ticket221 
+	checkout Ticket220
+ 17	aply stash
+	notepad bitacora.txt + 
+		cambios
+ 18	commit -m "Paso 18"
+ 19 	checkout develop
+ 20	branch feature/Ticket222
+ 21	checkout Ticket220
+ 22	fast-forward
+ 23	commit -m "Paso 23"
+ 24	checkout develop
+ 25	merge Ticket220 into develop  	Para que sea recursivo hay que forzar
+					a que haga un commit
+ 26	merge Ticket221 into develop	Para que sea recursivo hay que forzar
+					a que haga un commit. Resolver 								conflictos al fusionar ramas.
+ 28	commit -m "Paso 28"
+ 29	tag el commit como "Step29"
+ 30	push sin seleccionar "push
+	all tags"
+ 31	checkout Ticket222
+ 32	merge develop into Ticket222
