@@ -29,3 +29,9 @@
  20	branch feature/Ticket222
  21	checkout Ticket220
  22	fast-forward
+ 23	commit -m "Paso 23"
+ 24	checkout develop
+ 25	merge Ticket220 into develop  	Para que sea recursivo hay que forzar
+					a que haga un commit
+ 26	merge Ticket221 into develop	Para que sea recursivo hay que forzar
+					a que haga un commit. Resolver 								conflictos al fusionar ramas.
