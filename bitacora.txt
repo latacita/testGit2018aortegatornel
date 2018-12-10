@@ -35,3 +35,9 @@
 					a que haga un commit
  26	merge Ticket221 into develop	Para que sea recursivo hay que forzar
 					a que haga un commit. Resolver 								conflictos al fusionar ramas.
+ 28	commit -m "Paso 28"
+ 29	tag el commit como "Step29"
+ 30	push sin seleccionar "push
+	all tags"
+ 31	checkout Ticket222
+ 32	merge develop into Ticket222
