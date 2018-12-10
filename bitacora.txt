@@ -15,3 +15,11 @@
  07	branch feature/Ticket220
  13	stash de Ticket221 
 	checkout Ticket220
+ 17	aply stash
+	notepad bitacora.txt + 
+		cambios
+ 18	commit -m "Paso 18"
+ 19 	checkout develop
+ 20	branch feature/Ticket222
+ 21	checkout Ticket220
+ 22	fast-forward
