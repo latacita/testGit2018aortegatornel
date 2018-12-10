@@ -16,10 +16,10 @@
  09	commit -m "Paso 09"
  10	checkout develop
  11	branch feature/Ticket221
-	checkout Ticket221
+ 13	stash de Ticket221
+	checkout Ticket220
  15	commit -m "Paso 15"
- 16	checkout Ticket221
- 13	stash de Ticket221 
+ 16	checkout Ticket221 
 	checkout Ticket220
  17	aply stash
 	notepad bitacora.txt + 
@@ -41,3 +41,10 @@
 	all tags"
  31	checkout Ticket222
  32	merge develop into Ticket222
+ 34	commit -m "Paso 34"
+ 35	checkout develop
+ 	merge Ticket222 into develop	Para que sea recursivo hay que forzar
+					a que haga un commit
+ 36	checkout master
+	merge develop into master	Para que sea recursivo hay que forzar
+					a que haga un commit
