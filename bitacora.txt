@@ -7,7 +7,9 @@
  Paso   Acción                       Notas
 ====== ============================ ================================
  01	clone + URL del repositorio
-	de gitHub
  02	notepad bitacora.txt + 
 	añadir mi nombre completo
  03	commit + push
+ 05	commit -m "Paso 05"
+ 06	branch develop
+ 07	branch feature/Ticket220
