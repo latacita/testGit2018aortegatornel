@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+ 01	clone + URL del repositorio
+	de gitHub
+ 02	notepad bitacora.txt + 
+	añadir mi nombre completo
+ 03	commit + push
